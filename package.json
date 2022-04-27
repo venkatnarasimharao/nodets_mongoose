@@ -1,0 +1,31 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "just a test practice server in ts and mongoose",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node-dev server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && prettier --write dist/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "venkatnarasimharao94@gmail.com"
+  },
+  "author": "venkat narasimha rao",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13"
+  }
+}
